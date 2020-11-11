@@ -1,0 +1,16 @@
+{
+  "name": "jw-clock",
+  "version": "1.0.0",
+  "description": "Relogio Desktop",
+  "main": "backend.js",
+  "repository": "https://github.com/willvitorino/jw-clock.git",
+  "author": "Zé William <josewilliam@justto.com.br>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "electron backend.js"
+  },
+  "devDependencies": {
+    "electron": "^10.1.5"
+  }
+}

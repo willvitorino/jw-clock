@@ -1,0 +1,11 @@
+{
+  "width": 800,
+  "height": 600,
+  "frame": false,
+  "backgroundColor": "#000000",
+  "fullscreen": true,
+  "webPreferences": {
+    "nodeIntegration": true,
+    "contextIsolation": true
+  }
+}

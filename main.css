@@ -1,0 +1,29 @@
+* {
+  padding: none;
+  margin: none;
+}
+
+body {
+  overflow: hidden;
+}
+
+body #root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body #root #closeButton {
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-weight: body;
+  color: black;
+  font-size: 1rem;
+  background-color: red;
+  border: none;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
