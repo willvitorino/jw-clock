@@ -3,11 +3,10 @@ const configs = require('./configs.json')
 function createWindow () {
   const win = new BrowserWindow(configs)
 
-  // win.setIgnoreMouseEvents(true)
+  win.setIgnoreMouseEvents(true)
   win.setMenu(null)
 
   win.loadFile('index.html')
-  win.openDevTools()
 
   win.once('ready-to-show', win.show)
 }

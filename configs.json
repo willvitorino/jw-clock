@@ -2,6 +2,7 @@
   "width": 800,
   "height": 600,
   "frame": false,
+  "icon": "./icon.png",
   "backgroundColor": "#000000",
   "fullscreen": true,
   "webPreferences": {

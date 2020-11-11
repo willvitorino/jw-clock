@@ -8,9 +8,15 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "electron backend.js"
+    "start": "electron backend.js",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "devDependencies": {
-    "electron": "^10.1.5"
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1"
+  },
+  "build": {
+    "appId": "clock.jw.app"
   }
 }
